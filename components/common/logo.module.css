@@ -1,0 +1,25 @@
+.logoContainer {
+  position: absolute;
+  padding: 10px;
+  left: 5%;
+  top: 4%;
+}
+
+.logoText {
+  color: var(--main-text-color);
+  font-size: 25px;
+  font-weight: 700;
+}
+
+/* Styles for screens with width less than 900 pixels */
+@media screen and (max-width: 900px) {
+  .logoContainer {
+    position: relative;
+    left: 0;
+    text-align: center;
+  }
+
+  .logoText {
+    font-size: 7vw;
+  }
+}

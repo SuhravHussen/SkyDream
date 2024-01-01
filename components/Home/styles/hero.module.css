@@ -1,0 +1,29 @@
+.heroContainer {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.title {
+  color: var(--main-text-color);
+}
+
+.titleOne {
+  font-size: 9vw;
+  margin-bottom: -40px;
+}
+.titleTwo {
+  font-size: 15vw;
+}
+
+/* Styles for screens with width less than 900 pixels */
+@media screen and (max-width: 900px) {
+  .heroContainer {
+    margin-top: 2rem;
+  }
+  .titleOne {
+    margin-bottom: -20px;
+  }
+}

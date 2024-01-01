@@ -1,0 +1,22 @@
+.svgText {
+  width: 40vw;
+  height: 233.214px;
+  margin-top: -80px;
+  transform: rotate(-5deg);
+}
+
+.svgGroup {
+  stroke: var(--main-text-color);
+  stroke-width: 1mm;
+}
+
+/* Styles for screens with width less than 900 pixels */
+@media screen and (max-width: 900px) {
+  .svgText {
+    margin-top: -130px;
+    transform: rotate(-10deg);
+  }
+  .svgGroup {
+    stroke-width: 0.6mm;
+  }
+}

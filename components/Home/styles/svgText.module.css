@@ -1,0 +1,16 @@
+.svgText {
+  width: 50vw;
+  height: 55.679px;
+}
+
+.svgGroup {
+  stroke: var(--main-text-color);
+  stroke-width: 1mm;
+}
+
+/* Styles for screens with width less than 900 pixels */
+@media screen and (max-width: 900px) {
+  .svgGroup {
+    stroke-width: 0.7mm;
+  }
+}

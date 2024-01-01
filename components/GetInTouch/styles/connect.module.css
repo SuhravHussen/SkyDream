@@ -1,0 +1,116 @@
+.connectContainer {
+  margin-top: 110px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact {
+  display: flex;
+  font-size: 1.5rem;
+  color: var(--main-text-color);
+  gap: 20px;
+}
+
+.about {
+  margin-top: 50px;
+}
+.about p {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.fragranceContainer {
+  display: flex;
+  width: 70%;
+  gap: 10px;
+  margin-top: 100px;
+}
+
+.fragranceImageCOntainer {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+}
+.fragranceImage {
+  width: 25vw;
+  height: auto;
+}
+.fragranceAboutContainer {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 5vw;
+}
+
+.dividerContainer {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  justify-content: start;
+  color: var(--main-text-color);
+  font-size: 1.1rem;
+  margin-top: 20px;
+}
+.divider {
+  height: 2px;
+  border: 1px solid var(--main-text-color);
+  width: 200px;
+  top: 10px;
+  position: relative;
+}
+
+.about {
+  font-size: 1.3rem;
+}
+
+/* Styles for screens with width less than 900 pixels */
+@media screen and (max-width: 900px) {
+  .fragranceContainer {
+    flex-direction: column;
+    width: 70%;
+    max-width: 400px;
+  }
+  .fragranceImageCOntainer {
+    width: 100%;
+  }
+  .fragranceAboutContainer {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .title {
+    font-size: 7vw;
+  }
+  .fragranceImage {
+    width: 50vw;
+  }
+  .fragranceAboutContainer {
+    align-items: baseline;
+  }
+  .dividerContainer {
+    font-size: 3vw;
+  }
+  .divider {
+    width: 100px;
+    top: 8px;
+  }
+  .about {
+    font-size: 1rem;
+  }
+}
+
+/* Styles for screens with width less than 600 pixels */
+@media screen and (max-width: 600px) {
+  .about {
+    width: 95%;
+    margin-top: 10px;
+  }
+  .about p {
+    font-size: 1.2rem;
+  }
+}

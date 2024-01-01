@@ -1,4 +1,4 @@
-import { Sacramento } from "next/font/google";
+import SmoothScrollClient from "@/lib/SmoothScrollClient";
 import "./globals.css";
 import Logo from "@/components/common/logo";
 
@@ -11,8 +11,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
+        <SmoothScrollClient />
         <Logo />
-        {children}
+        <main>{children}</main>
       </body>
     </html>
   );

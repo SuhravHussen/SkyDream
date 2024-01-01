@@ -1,0 +1,40 @@
+.contactContainer {
+  display: flex;
+  gap: 20%;
+  width: 90%;
+  margin-top: 50px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.singleContact {
+  display: flex;
+  color: var(--main-text-color);
+
+  font-size: 1.2rem;
+}
+
+/* Styles for screens with width less than 600 pixels */
+@media screen and (max-width: 600px) {
+  .contactContainer {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+  .singleContact {
+    font-size: 1rem;
+  }
+}
+
+/* Styles for screens with width less than 400 pixels */
+@media screen and (max-width: 400px) {
+  .contactContainer {
+    margin-top: -50px;
+    margin-bottom: 50px;
+  }
+  .singleContact {
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,38 @@
+.headerContainer {
+  margin-top: 100px;
+}
+
+.heading {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.singleLine {
+  font-size: 7vw;
+  flex-direction: column;
+  width: fit-content;
+}
+
+.lineTwo {
+  position: relative;
+  left: 50px;
+}
+
+.lineThree {
+  position: relative;
+  left: 130px;
+}
+
+/* Styles for screens with width less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .lineTwo {
+    left: 20px;
+  }
+
+  .lineThree {
+    position: relative;
+    left: 60px;
+  }
+}

@@ -1,0 +1,69 @@
+.menuContainer {
+  position: fixed;
+  right: 30px;
+  top: 30px;
+}
+
+.menuIcon {
+  color: var(--main-text-color);
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.menuScreen {
+  position: fixed;
+  top: 100vh;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--main-bg-color);
+  z-index: 4;
+  overflow: hidden;
+  transition: top 1s ease;
+}
+.menuScreen.open {
+  top: 0;
+}
+
+/* @keyframes slideIn {
+  from {
+    top: 100vh;
+  }
+  to {
+    top: 0vh;
+  }
+} */
+
+.menuListContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.menuListContainer li {
+  list-style: none;
+  font-size: calc(13px + 2vw);
+  cursor: pointer;
+}
+
+.menuListContainer li:hover {
+  color: var(--main-text-color);
+  transition: color 0.5s ease;
+}
+
+.closeIcon {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  color: var(--main-text-color);
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+  font-weight: bold;
+}

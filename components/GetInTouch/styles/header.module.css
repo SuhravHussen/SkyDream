@@ -27,6 +27,10 @@
 
 /* Styles for screens with width less than 500 pixels */
 @media screen and (max-width: 500px) {
+  .singleLine {
+    font-size: 8vw;
+  }
+
   .lineTwo {
     left: 20px;
   }

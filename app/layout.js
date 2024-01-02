@@ -1,6 +1,7 @@
 import SmoothScrollClient from "@/lib/SmoothScrollClient";
 import "./globals.css";
 import Logo from "@/components/common/logo";
+import Menu from "@/components/common/Menu/Menu";
 
 export const metadata = {
   title: "Create Next App",
@@ -13,6 +14,7 @@ export default function RootLayout({ children }) {
       <body>
         <SmoothScrollClient />
         <Logo />
+        <Menu />
         <main>{children}</main>
       </body>
     </html>

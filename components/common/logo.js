@@ -1,5 +1,6 @@
 import { Sacramento } from "next/font/google";
 import styles from "./logo.module.css";
+import Link from "next/link";
 
 const sacramento = Sacramento({
   subsets: ["latin"],
@@ -9,10 +10,10 @@ const sacramento = Sacramento({
 
 export default function Logo() {
   return (
-    <div className={styles.logoContainer}>
+    <Link href={"/"} className={styles.logoContainer}>
       <h3 className={`${sacramento.className}  ${styles.logoText}`}>
         Sky Dream
       </h3>
-    </div>
+    </Link>
   );
 }

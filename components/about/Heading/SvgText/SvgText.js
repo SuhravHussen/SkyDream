@@ -2,7 +2,7 @@
 
 import startSvgAnimation from "@/lib/animateSvgText";
 import React, { useEffect } from "react";
-import styles from "../styles/svgText.module.css";
+import styles from "../styles/svgtext.module.css";
 
 export default function SvgText() {
   useEffect(() => {

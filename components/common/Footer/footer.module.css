@@ -1,17 +1,11 @@
-.studioContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 130px;
+.madeWith {
+  font-size: calc(15px + 0.390625vw);
+  margin-top: 100px;
+  padding-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
-
-.titleContainer {
-  position: relative;
-}
-.title {
-  font-size: 7vw;
-}
-
 .footerContainer {
   margin-top: 100px;
   text-align: center;
@@ -22,20 +16,8 @@
   margin-top: 5px;
 }
 
-.madeWith {
-  font-size: calc(15px + 0.390625vw);
-  margin-top: 100px;
-  padding-bottom: 100px;
-}
-
 /* Styles for screens with width less than 900 pixels */
 @media screen and (max-width: 900px) {
-  .title {
-    font-size: 9vw;
-  }
-  .studioContainer {
-    margin-top: 70px;
-  }
   .footerContainer {
     margin-top: 20px;
   }

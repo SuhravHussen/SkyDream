@@ -23,16 +23,13 @@ export default function Menu() {
           <Link href={"/"} onClick={toggleMenu}>
             <li>HOME</li>
           </Link>
-          <Link href={"/studio"} onClick={toggleMenu}>
-            <li>STUDIO</li>
-          </Link>
-          <Link href={"/about"}>
+          <Link href={"/about"} onClick={toggleMenu}>
             <li>ABOUT</li>
           </Link>
-          <Link href={"/work"}>
+          <Link href={"/work"} onClick={toggleMenu}>
             <li>WORK</li>
           </Link>
-          <Link href={"/contact"}>
+          <Link href={"/contact"} onClick={toggleMenu}>
             <li>CONTACT</li>
           </Link>
         </ul>

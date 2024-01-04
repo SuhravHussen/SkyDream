@@ -1,17 +1,9 @@
 import { cardo } from "@/lib/font";
-import styles from "./styles/whatwedo.module.css";
-import SvgText from "./svgText/SvgText";
+import styles from "./footer.module.css";
 
-export default function WhatWeDo() {
+export default function Footer() {
   return (
-    <div className={styles.studioContainer}>
-      <p className="sectionStart">WHAT WE DO</p>
-
-      <div className={styles.titleContainer}>
-        <SvgText />
-        <h1 className={`${styles.title} ${cardo.className}`}>STUDIO</h1>
-      </div>
-
+    <>
       <div className={styles.footerContainer}>
         <p className={styles.footerText}>
           NATIONWIDE TURNKEY INTERIOR | ELECTRICAL | CIVIL | AUTOMATION & IT
@@ -36,6 +28,6 @@ export default function WhatWeDo() {
           Suhrav
         </a>
       </p>
-    </div>
+    </>
   );
 }

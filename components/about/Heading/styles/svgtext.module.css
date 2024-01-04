@@ -1,0 +1,52 @@
+.svgText {
+  width: 12vw;
+  left: 43%;
+  height: 233.214px;
+  top: 300px;
+  margin-top: -80px;
+  transform: rotate(-8deg);
+  position: absolute;
+}
+
+.svgGroup {
+  stroke: var(--main-text-color);
+  stroke-width: 1mm;
+}
+
+/* Styles for screens with width less than 1200 pixels */
+@media screen and (max-width: 1200px) {
+  .svgText {
+    width: 15vw;
+    margin-top: -130px;
+    transform: rotate(-10deg);
+  }
+  .svgGroup {
+    stroke-width: 0.3mm;
+  }
+}
+
+/* Styles for screens with width less than 900 pixels */
+@media screen and (max-width: 900px) {
+  .svgText {
+    width: 25vw;
+    margin-top: -145px;
+    transform: rotate(-10deg);
+    left: 35%;
+  }
+}
+
+/* Styles for screens with width less than 600 pixels */
+@media screen and (max-width: 600px) {
+  .svgText {
+    margin-top: -235px;
+    transform: rotate(-10deg);
+  }
+}
+
+/* Styles for screens with width less than 400 pixels */
+@media screen and (max-width: 400px) {
+  .svgText {
+    margin-top: -240px;
+    transform: rotate(-10deg);
+  }
+}

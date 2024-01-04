@@ -5,7 +5,7 @@ import { cardo } from "@/lib/font";
 import styles from "./styles/header.module.css";
 import { useIntersectionObserver } from "usehooks-ts";
 import { useRef } from "react";
-import SlideText from "../common/slideText/SlideText";
+import SlideText from "../../common/slideText/SlideText";
 import SvgText from "./svgText/SvgText";
 
 export default function Header() {

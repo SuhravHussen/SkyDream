@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Contact from "./Contact/Contact";
 import styles from "./styles/connect.module.css";
-import FadeText from "../common/FadeText";
-import SlideText from "../common/slideText/SlideText";
+
+import SlideText from "../../common/slideText/SlideText";
 import { cardo } from "@/lib/font";
 
 export default function Connect() {

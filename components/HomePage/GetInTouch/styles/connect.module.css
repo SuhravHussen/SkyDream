@@ -52,7 +52,7 @@
   width: 100%;
   display: flex;
   gap: 20px;
-  justify-content: start;
+  justify-content: flex-start;
   color: var(--main-text-color);
   font-size: 1.1rem;
   margin-top: 20px;
